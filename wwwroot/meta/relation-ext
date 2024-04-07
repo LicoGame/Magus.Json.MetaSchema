@@ -8,13 +8,14 @@
     "https://json-schema.org/draft/2020-12/vocab/meta-data": true,
     "https://json-schema.org/draft/2020-12/vocab/format-annotation": true,
     "https://json-schema.org/draft/2020-12/vocab/content": true,
-    "https://json-schema.org/draft/2020-12/vocab/unevaluated": true,
-    "https://licogame.github.io/Magus.Json.MetaSchema/docs/schema/vocabs/relation-ext": true
+    "https://json-schema.org/draft/2020-12/vocab/unevaluated": true
   },
   "$dynamicAnchor": "meta",
-  "title": "Array extensions 2020-12 meta-schema",
+  "title": "Relation extensions 2020-12 meta-schema",
   "allOf": [
-    { "$ref": "https://json-schema.org/draft/2020-12/schema" },
+    {
+      "$ref": "https://json-schema.org/draft/2020-12/schema"
+    },
     {
       "$ref": "https://licogame.github.io/Magus.Json.MetaSchema/meta/vocab/relation-ext"
     }
